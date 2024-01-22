@@ -316,3 +316,30 @@
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+  .icon-short-film:before {
+    content: "\1F3AC"; /* Clapper Board */
+  }
+  
+  .icon-music-video:before {
+    content: "\1F3B5"; /* Musical Note */
+  }
+  
+  .icon-videography:before {
+    content: "\1F4F9"; /* Video Camera */
+  }
+  
+  .icon-feature-film:before {
+    content: "\1F3A5"; /* Movie Camera */
+  }
+  
+  .icon-documentary:before {
+    content: "\1F39E"; /* Film Frames */
+  }
+  
+  .icon-tv-commercial:before {
+    content: "\1F4FA"; /* Television */
+  }
+  
+
+    
