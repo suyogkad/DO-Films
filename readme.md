@@ -1,6 +1,6 @@
 # DO Production House
 
-![Logo](./images/do.svg)
+![Logo](./images/cover.png)
 
 ## About
 
