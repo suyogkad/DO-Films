@@ -586,3 +586,20 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+
+/* Fixed size for message box in the modal */
+#quoteModal #message {
+    height: 200px; /* You can adjust this value as needed */
+    resize: none;  /* This disables the user's ability to resize the textarea */
+}
+
+.red-mark{
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-services:hover{
+	color: #e84545;
+	cursor: default;
+}

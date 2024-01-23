@@ -94,9 +94,8 @@
             <div class="col-md-6">
               <blockquote>
                 <h1>We create Digital Experience </h1>
-
                 <p>DO Films Production Pvt. Ltd. stands at the forefront of cinematic innovation in Nepal, blending traditional storytelling with modern filmmaking techniques. Our team, led by passionate creators, excels in transforming ideas into visual spectacles. We specialize in producing diverse content, ranging from captivating short films and documentaries to full-scale feature films and engaging TV commercials.</p>
-                <p>At DO Filme Production, we believe in the power of visual storytelling to transcend boundaries. Our work is not just about creating films; it's about crafting unforgettable experiences that resonate with audiences both in Nepal and globally. Whether it's exploring the rich cultural heritage of Nepal or pushing the limits of contemporary cinema, our goal is to leave a lasting impact with every project.</p>
+                <p>DO Filme Production crafts unforgettable films, transcending boundaries. We celebrate Nepal's rich heritage and innovate in cinema, resonating globally and leaving lasting impacts.</p>
 
                 <!-- <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum.Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
                 <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p> -->
@@ -268,7 +267,7 @@
           <div class="person-content">
             <h4>Sunil Shivabhakti</h4>
             <h5 class="role">Director/Editor</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+            <p>Skilled Director and Editor, known for innovative editing and compelling storytelling in film.</p>
           </div>
           <ul class="social-icons clearfix">
             <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
@@ -284,7 +283,7 @@
           <div class="person-content">
             <h4>Rabin Gurung</h4>
             <h5 class="role">Production Manager</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Efficient Production Manager with expertise in overseeing film projects from concept to completion.</p>
           </div>
           <ul class="social-icons clearfix">
             <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
@@ -302,7 +301,7 @@
           <div class="person-content">
             <h4>Anuj Karki</h4>
             <h5 class="role">Script Writer</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Creative Script Writer, crafting captivating narratives and dialogues for diverse film and television genres.</p>
           </div>
           <ul class="social-icons clearfix">
             <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
@@ -409,16 +408,68 @@
 </section>
 <!-- Testimonials section --> 
 
-
 <!-- Get a quote section -->
-<section id="contact" class="section quote">
+<!-- <section id="contact" class="section quote">
   <div class="container">
     <div class="col-md-8 col-md-offset-2 text-center">
       <h3>Looking for a new brand? Let's work together!</h3>
       <a href="#" class="btn btn-large">Get Quotation</a> </div>
   </div>
+</section> -->
+<!-- Get a quote section -->
+
+<!-- Get a quote section -->
+<section id="contact" class="section quote">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <!-- <h3>Looking for a new brand? Let's work together!</h3> -->
+      <h3>Bringing Stories to Life on Screen? Let's work together!</h3>
+
+      <!-- Trigger Modal -->
+      <button type="button" class="btn btn-large" data-toggle="modal" data-target="#quoteModal">Get Quotation</button>
+    </div>
+  </div>
 </section>
-<!-- Get a quote section --> 
+
+<!-- Quotation Modal -->
+<div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="quoteModalLabel">Request a Quote</h4>
+      </div>
+      <div class="modal-body">
+        <form id="quoteForm">
+          <div class="form-group">
+            <label for="name">Name<span class="red-mark">*</span></label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email<span class="red-mark">*</span></label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message<span class="red-mark">*</span></label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+            <button type="submit" class="btn btn-primary center-block">Send Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Get a quote section -->
+
 <!-- Footer section -->
 <footer class="footer">
   <div class="footer-top section">
@@ -435,11 +486,11 @@
           <h5>Services We Offer</h5>
           <p>
           <ul>
-            <li><a href="#">Short Films</a></li>
-            <li><a href="#">Music Video</a></li>
-            <li><a href="#">Videography</a></li>
-            <li><a href="#">Feature Films</a></li>
-            <li><a href="#">TV Commercials & more.</a></li>
+            <li class="footer-services">Short Films</li>
+            <li class="footer-services">Music Video</li>
+            <li class="footer-services">Videography</a></li>
+            <li class="footer-services">Feature Films</a></li>
+            <li class="footer-services">TV Commercials & more.</a></li>
           </ul>
           </p>
         </div>
