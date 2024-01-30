@@ -600,9 +600,13 @@ ul li {
 }
 
 .footer-services{
-	color:#3d3d3d;
+	color:rgb(169, 167, 167);
 }
 .footer-services:hover{
 	color: #e84545;
 	cursor: default;
+}
+
+.white-textl{
+	color:rgb(169, 167, 167) !important;
 }
