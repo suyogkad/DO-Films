@@ -563,9 +563,10 @@ ul li {
 /* .footer p {
 	color: rgba(255, 255, 255, 0.25);
 } */
-.footer a {
+/* .footer a {
 	color: rgba(255, 255, 255, 0.50);
-}
+} */
+
 .footer a:hover {
 	color: #e84545;
 }
@@ -608,5 +609,9 @@ ul li {
 }
 
 .footer p {
+	color:rgb(169, 167, 167);
+}
+
+.footer a {
 	color:rgb(169, 167, 167);
 }
